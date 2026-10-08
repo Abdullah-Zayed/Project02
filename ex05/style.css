@@ -1,0 +1,34 @@
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.loader {
+    width: 80px;
+    height: 80px;
+
+    margin: 50px auto;
+
+    border: 10px solid lightgray;
+    border-top: 10px solid blue;
+    border-radius: 50%;
+
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+</style>

@@ -1,0 +1,50 @@
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+.shapes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.rectangle {
+    width: 160px;
+    height: 80px;
+    background-color: green;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.capsule {
+    width: 180px;
+    height: 70px;
+    background-color: purple;
+    border-radius: 40px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid orange;
+}
+
+</style>
